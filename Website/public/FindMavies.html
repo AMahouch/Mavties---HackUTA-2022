@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Mavties</title>
+	<link rel = "stylesheet" type = "text/css" href = "Styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+	<script type="text/javascript">
+		function saveSumbit()
+		{
+			var input = document.getElementById("name1"); // TEMP REPETION FOR SUMBITION
+			var input2 = document.getElementById("email1");
+			var input3 = document.getElementById("nickname1");
+			var input4 = document.getElementById("college1");
+			var input5 = document.getElementById("major1");
+
+			var obj = new Object();
+  			obj.name = input;
+  			alert(obj.name)
+   			obj.email  = input2;
+   			obj.nickname = input3;
+   			obj.college= input4;
+   			obj.major= input5;
+   			var jsonString= JSON.stringify(obj);
+   			alert(jsonString);
+		}
+    </script>
+</head>
+<body>
+<div class="top-container">
+	 <table>
+                <tr class="menu">
+                    <td class="top"><a href="index.html">Home</a></td>
+                    <td class="top"><a href="FindMavies.html">FindMavties</a></td>  <!-- FIND MAVTIES -->
+                    <td class="top"><a href="contact.htm">Contact Us</a></td> <!--CONTACT US-->
+                    <td class="top"><a href="AccountLogin.htm">Login</a></td> <!-- ACCOUNT CREATION/ LOGIN -->
+                </tr>
+            </table>
+		<h1>FindMavties</h1>
+</div>
+<div>
+	<table class="block">
+		<tr>
+			<div>
+				<th>Friends in the same area of study or interests...</th>
+			</div>
+			<div>
+				<th>Friends with current UTA students...</th>
+			</div>
+			<div>
+				<th>Friends from the broad UTA communiy (including Alumnis) from all over the world...</th>
+			</div>
+		</tr>
+	</table>
+</div>
+<h2>Want to try making new friends? Just fill out some basic information about you to find your perfect match. </h2>
+<table>
+	<tr>
+		<td>
+			<form method="post" enctype="text/plain"> <!-- removed action to send email to abc@gmail.comm -->
+		     <label> Your Name </label>
+		     <input type="text" name="yourName" value="" id="name1"> <br /> <br />
+		     <label> Your Email </label>
+		     <input type="text" name="yourEmail" value="" id="email1"> <br /><br />
+				 <label> Your nickname  </label>
+				 <input type="text" name="yourNickname" value="" id="nickname1"> <br /><br />
+				 <label> Your college </label>
+				 <input type="text" name="yourCollege" value="" id="college1"> <br /><br />
+				 <label> Your major </label>
+				 <input type="text" name="yourMajor" value="" id="major1"> <br /><br />
+		     <label> Something Fun About You?</label> <br />
+		     <textarea name="y" rows="10" cols="40"> </textarea> <br /> <br /><!--ADD THIS ELEMENT INPUT TO THE STORAGE -->
+		     <input type="submit" name="" onclick="saveSubmit()">
+		   </form>
+		</td>
+		<td>
+			<p class="text">
+				<strong>This form will help us match you to the perfect person that you can vibe with and build a strong relationship with. </strong>
+				<ul class="text">
+					<li>You can find someone in the same major... </li>
+					<li>You can also be more specific and find someone in the same class...</li>
+					<li>If you are a explorer and someone who would like to make anonymous friends keeping aside their interests you can do a random matching by clicking on that... </li>
+					<li>Lastly, you will surely have a great experience talking to people with amazing life experiences and will surely learn something new in life. We hope and wish you have a great experinece being here!					</li>
+				</ul>
+			</p>
+		</td>
+	</tr>
+</table>
+
+
+</body>
+</html>

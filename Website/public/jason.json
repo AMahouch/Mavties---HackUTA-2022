@@ -1,0 +1,72 @@
+[
+	{
+		"prodID": 101, 
+		"prodImg": "1.jpg",
+		"prodName": "Alpha Yogurt (1 1b)",
+		"prodDesc": "This is our boldest yogurt..",
+		"prodPrice": 11.95
+	},
+	{
+		"prodID": 102,
+		"prodImg": "2.jpg",
+		"prodName": "Beta yogurt (1 1b)",
+		"prodDesc": "This is our smooth yogurt.",
+		"prodPrice": 12.95
+	},
+	{
+		"prodID": 103,
+		"prodImg": "3.jpg",
+		"prodName": "Delta Yogurt Medium",
+		"prodDesc": "The perfect cup to enjoy sweet tartness.",
+		"prodPrice": 10.95
+	},
+	{
+		"prodID": 104, 
+		"prodImg": "4.jpg",
+		"prodName": "Epsilon Yogurt (1 1b)",
+		"prodDesc": "This is our silky yogurt. Yum!",
+		"prodPrice": 11.55
+	},
+	{
+		"prodID": 105, 
+		"prodImg": "5.jpg",
+		"prodName": "Zeta Yogurt(1 1b)",
+		"prodDesc": "Nut flavored yougurt smokey taste.",
+		"prodPrice": 12.55
+	},
+	{
+		"prodID": 106, 
+		"prodImg": "6.jpg",
+		"prodName": "Medium Roast - Whole Beans (1 1b)",
+		"prodDesc": "This is our medium blend with a silky finish and smoky undertones.  Whole beans.",
+		"prodPrice": 14.55
+	},
+	{
+		"prodID": 107, 
+		"prodImg": "7.jpg",
+		"prodName": "Theta Yogurt(1 1b)",
+		"prodDesc": "Extra tart yogurt, for those who love it.",
+		"prodPrice": 13.75
+	},
+	{
+		"prodID": 108, 
+		"prodImg": "8.jpg",
+		"prodName": "Rho Yogurt (1 1b)",
+		"prodDesc": "Unique blend of distinct yogurt, all natural.",
+		"prodPrice": 12.45
+	},
+	{
+		"prodID": 109, 
+		"prodImg": "9.jpg",
+		"prodName": "Sigma yogurt(1 1b)",
+		"prodDesc": "Froyo with a healthy doese of probiotic bacteria.",
+		"prodPrice": 16.75
+	},
+	{
+		"prodID": 110, 
+		"prodImg": "10.jpg",
+		"prodName": "Omega Yogurt(1 1b)",
+		"prodDesc": "The best yogurt mix around. Patent pending.",
+		"prodPrice": 19.85
+	}
+]

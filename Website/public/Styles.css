@@ -1,0 +1,84 @@
+body {
+  background-color: #CDF0EA;
+}
+
+h1 {
+  font-size: 862.5%;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  margin-bottom: 0;
+}
+
+h2{
+	text-align: center;
+}
+
+table {
+  margin: 0 auto 0 auto;
+}
+
+tr {
+  margin: 0 auto 0 auto;
+  padding: 20px;
+}
+
+td {
+  padding: 25px;
+}
+
+th{
+	padding: 50px;
+}
+
+form{
+	background-color: #8BBCCC;
+	padding: 30px;
+}
+
+.text{
+	text-align: justify;
+	font-size: 150%; 
+}
+
+.block{
+	height: 300px;
+	width: 1000px;
+	background-color: lavender;
+	margin-top: 0;
+}
+
+.menu {
+  font-size: 200.5%;
+  font-family: 'Montserrat', cursive;
+  color: black;
+}
+
+.imageone{
+	border: 2px;
+	position: relative;
+	left: 20%;
+}
+
+.goal{
+	text-align: center;
+	padding: 0 10% 0 10%;
+}
+
+.top-container {
+  position: relative;
+  text-align: center;
+}
+
+.bottom-container{
+  position: relative;
+  text-align: center;
+}
+
+.mvv {
+  text-align: center;
+  font-size: 150%;
+}
+
+.top {
+  border: 5px;
+}
