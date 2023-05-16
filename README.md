@@ -4,8 +4,10 @@ An interactive platform to create relationships with other UTA Students. Availab
 
 ## Stack
 * Android 13 Tiramisu
-* HTML / CSS
 * Google Firebase
+* HTML / CSS
+* Java
+* Javascript
 * XML
 
 ## Demo
